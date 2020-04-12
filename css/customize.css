@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Courgette;
+    src: url(Courgette.ttf);
+}
+
+.kui-list li {
+    height: auto;
+}
+
+.kui-list li:focus {
+    background-color: #e0f7fa;
+}
+
+.kui-list-cont .kui-sec {
+    line-height: 20px;
+}
+
+.kui-list li:focus .kui-pri {
+    color: #00bfa5;
+}
+
+.kui-list li:focus .kui-sec {
+    color: #323232;
+}
+
+.kui-list li .kui-list-img {
+    background-color: #00796b;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.kui-list li .kui-list-img span {
+    color: #065463;
+    font-size: 20px;
+    font-family: Courgette;
+}
+
+.kui-list li:focus .kui-list-img {
+    background-color: #00bfa5;
+}
+
+.kui-list li:focus .kui-list-img span {
+    color: #69f0ae;
+}
